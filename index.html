@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webbutveckling III | REST-webbtjänster med PHP</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Sidhuvud -->
+    <header>
+        <p id="header-text">Webbutveckling III | REST-webbtjänster med PHP</p>
+    </header>
+    <!-- Innehåll -->
+    <main>
+        <!-- Utskrift av kurser -->
+        <section id="output">
+            <h1>Kurser jag har läst</h1>
+        </section>
+        <!-- Formulär för att lägga till och uppdatera kurser -->
+        <form action="index.html">
+            <div class="form-left">
+                <input class="text-input" type="text" placeholder="Kurskod">
+                <p class="error"></p>
+            </div>
+            <div class="form-right">
+                <input class="text-input" type="text" placeholder="Kursnamn">
+                <p class="error"></p>
+            </div>
+            <div class="form-left">
+                <input class="text-input" type="text" placeholder="Progression">
+                <p class="error"></p>
+            </div>
+            <div class="form-right">
+                <input class="text-input" type="text" placeholder="Kursplan">
+                <p class="error"></p>
+            </div>
+        </form>
+        <button id="submit">Skicka</button>
+        <p id="confirm"></p>
+    </main>
+    <!-- Sidfot -->
+    <footer>
+        <div id="footer-wrapper">
+            <p id="author">Marco Zintl</p>
+            <p id="course">Webbutvecklingsprogrammet</p>
+            <p id="school">Mittuniversitetet</p>
+            <p id="semester">HT 2021</p>
+        </div>
+    </footer>
+<script src="js/main.js"></script>
+</body>
+</html>
